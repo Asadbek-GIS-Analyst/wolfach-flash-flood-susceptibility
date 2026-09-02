@@ -21,3 +21,61 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+# ==== Large raw data (DGM1, rasters) ====
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/README.md
+
+# ==== GIS-specific large/binary files ====
+*.tif
+*.tiff
+*.img
+*.dem
+*.asc
+*.gdb/
+*.mdb
+*.gdb.zip
+*.lyr
+*.lyrx
+*.mxd
+
+# ==== ArcGIS Pro project files & cache ====
+*.aprx.bak
+*.sr.lock
+*.ddl
+*.CachedOutputs/
+*.gdb.lock
+Index/
+Log/
+ScratchWorkspace/
+GdbWorkspace/
+BackupFiles/
+ImportLog/
+*.tbx.lock
+
+# ==== ArcGIS temp/backup ====
+*.lock
+*.ovr
+*.aux.xml
+*.xml.bak
+*.tmp
+
+# ==== QGIS ====
+*.qgs~
+*.qgz~
+*.qgs.bak
+
+# ==== Python/venv (agar skript ishlatgan bo'lsangiz) ====
+__pycache__/
+*.pyc
+venv/
+.env
+
+# ==== OS fayllari ====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==== Export/output cache ====
+*.log
+*.zip
