@@ -48,8 +48,8 @@ The reclassified layers are combined using **Weighted Overlay**:
 | Factor              | Weight |
 |----------------------|--------|
 | Distance to Stream    | 40%    |
-| Flow Accumulation     | 35%    |
-| Slope                 | 25%    |
+| Flow Accumulation     | 25%    |
+| Slope                 | 35%    |
 
 The output is a single flash flood susceptibility raster (1–5 scale).
 
@@ -62,5 +62,6 @@ agreement between the model output and officially recognized flood-prone areas.
 ## 5. Software & Tools
 
 - Esri ArcGIS Pro — Spatial Analyst extension
+- QGIS
 - Tools used: Fill, Flow Direction, Flow Accumulation, Watershed, Slope,
   Euclidean Distance, Reclassify, Weighted Overlay
